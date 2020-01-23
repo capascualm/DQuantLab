@@ -1,3 +1,13 @@
+'''
+Backtest que engloba empresas con las siguientes características:
+- ROIC alto
+- FCF Growth alto
+- Todos los sectores
+- Leverage no mayor al 1,1
+- US Stocks
+- Rotación cada 6 meses
+'''
+
 # Se importan las librerias necesarias#
 from quantopian.algorithm import attach_pipeline, pipeline_output                                                         
 from quantopian.pipeline import Pipeline
